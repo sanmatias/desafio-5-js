@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio - 5</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<header ><h1>Todo List</h1></header>
+<body>
+    <div>
+<input type="text" class="nuevaTarea" style="display: inline-block;">
+<button onclick="guardar()" style="display: inline-block;">agregar</button>
+</div>
+
+<div class="grid">
+<section>
+    <div> <p>Total: </p><p id="total">0</p></div>
+<div><p>Realizadas: </p><p id="realizada">0</p></div>
+</section>
+
+
+<section > 
+    <div class="gridTabla">
+    <p >ID</p><p >Tarea</p><p >Realizado</p><p >Eliminar</p>
+</div>
+    <div class="listaTareas gridTabla">        
+    </div>
+    
+</section>
+</div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

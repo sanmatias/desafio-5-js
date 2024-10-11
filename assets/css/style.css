@@ -1,0 +1,23 @@
+header h1{
+    text-align: center;
+}
+
+.grid{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+
+
+.gridTabla{
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    display: grid;
+}
+.centro{
+    align-items: center;
+    height: 20px;
+}
+
+body{
+    background-color: ghostwhite;
+}
